@@ -16,6 +16,9 @@ helm:
         systemDefaultRegistry: registry.rancher.com
     persistence:
       defaultClassReplicaCount: 1
+
+    defaultSettings:
+      kubeletRootDir: /var/lib/kubelet
     csi:
       attacherReplicaCount: 1
       provisionerReplicaCount: 1
