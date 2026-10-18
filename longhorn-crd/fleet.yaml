@@ -6,4 +6,4 @@ helm:
   releaseName: longhorn-crd
   
   # Important: Wait for CRDs to be fully established before marking success
-  waitForJob: true
+  waitForJob: true 
